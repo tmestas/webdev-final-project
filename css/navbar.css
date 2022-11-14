@@ -23,6 +23,8 @@ body {
   width: 175px;
   height: 25px;
   line-height: 25px;
+  border-right: 1px solid #333;
+  border-left: 1px solid #333;
 }
 
 .navbar-image {
