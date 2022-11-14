@@ -1,5 +1,13 @@
+:root {
+  --eerie-black: #1c1c1cff;
+  --russian-green: #6b8f71ff;
+  --light-cyan: #cdf7f6ff;
+  --maximum-blue-purple: #9ba2ffff;
+  --glossy-grape: #a799b7ff;
+}
+
 body {
-  background-color: #333;
+  background-color: var(--eerie-black);
 }
 
 #header-background {

@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  background-color: #5353ee;
+  background-color: var(--glossy-grape);
   position: relative;
   list-style: none;
 }
@@ -23,8 +23,8 @@ body {
   width: 175px;
   height: 25px;
   line-height: 25px;
-  border-right: 1px solid #333;
-  border-left: 1px solid #333;
+  border-left: solid 1px #333;
+  border-right: solid 1px #333;
 }
 
 .navbar-image {
@@ -35,6 +35,6 @@ body {
 
 .nav-link:hover {
   color: white;
-  background-color: #111;
-  border-color: white;
+  background-color: var(--eerie-black);
+  border-color: var(--eerie-black);
 }
