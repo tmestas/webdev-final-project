@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-list {
+  margin-top: 20px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: var(--glossy-grape);
+  position: relative;
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  width: 175px;
+  height: 25px;
+  line-height: 25px;
+  border-left: solid 1px #333;
+  border-right: solid 1px #333;
+}
+
+.navbar-image {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: var(--eerie-black);
+  border-color: var(--eerie-black);
+}

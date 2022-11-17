@@ -1,0 +1,55 @@
+form {
+  margin-top: 100px;
+  width: 400px;
+}
+
+.btn {
+  font-size: 0.9em;
+  display: inline-block;
+  width: calc(50% - 4px);
+  padding: 0.35em 1.2em;
+  box-sizing: border-box;
+  text-align: center;
+  border-width: 1px;
+  border-radius: 3px;
+  align-self: center;
+}
+
+.main-body {
+  margin-top: 0px;
+}
+
+#no {
+  margin-bottom: 0.75em;
+}
+
+#date {
+  margin-bottom: 0.75em;
+}
+
+.button-align {
+  display: flex;
+  margin-left: 120px;
+}
+
+@media (min-width: 768px) {
+  .form-group {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .button-align {
+    display: flex;
+    margin-left: 120px;
+  }
+
+  .form-control {
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  .btn {
+    width: calc(50% - 10px);
+  }
+}
