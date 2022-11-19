@@ -10,10 +10,30 @@ body {
   background-color: var(--eerie-black);
 }
 
-.test {
-  font-size: 100px;
+.container {
+  margin: 5 5 5 5;
+}
+
+.nav-link {
+  display: block;
+  color: white;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  padding: 0px;
+  text-decoration: none;
+  padding: 14px 16px;
+  width: 175px;
+  height: 25px;
+  line-height: 25px;
+}
+
+.buttons {
+  margin-top: 50px;
+}
+
+#aboutme {
+  margin-top: 100px;
+}
+
+form {
+  margin-top: 100px;
+  width: 800px;
 }
