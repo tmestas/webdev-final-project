@@ -22,7 +22,7 @@
 }
 
 .buttons {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 #aboutme {
@@ -37,6 +37,11 @@ form {
   margin-top: 100px;
 }
 
-.background {
-  background-color: rgb(255, 255, 255);
+.footer-text {
+  font-weight: lighter;
+  font-style: italic;
+}
+
+h1 {
+  border-bottom: 20px;
 }
