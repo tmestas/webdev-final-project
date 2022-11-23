@@ -34,8 +34,8 @@
         </nav>
 
         <!-- ABOUT ME -->
-        <div id="aboutme">
-          <h1>About Me</h1>
+        <div>
+          <h1 id="aboutme">About Me</h1>
           <div class="card-body">
             <div class="card mb-3">
               <div class="row no-gutters">
@@ -43,7 +43,7 @@
                   <img
                     src="../images/tanner.JPEG"
                     class="card-img"
-                    alt="Tanner standing in his room like an idiot"
+                    alt="Photo of Tanner standing against a wall"
                     height="350px"
                     width="250px"
                   />
@@ -52,14 +52,15 @@
                   <div class="card-body">
                     <h2 class="card-title">Tanner Mestas</h2>
                     <p class="card-text" style="font-size: larger">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
+                      Hello, my name is Tanner Mestas. I am a senior computer
+                      science student at Portland State University, and I am
+                      currently living in Gresham Oregon. I currently work as a
+                      Technical Course Support Specialist for the CS162-CS302
+                      classses. I have been able to use the skills I have
+                      acquired during my time in school work on both frontend
+                      and backend systems for a large company. In my free time I
+                      like to ski and spend time with my friends. Please give me
+                      a job.
                     </p>
                     <div class="buttons">
                       <a href="#contactform" class="btn btn-outline-primary"
@@ -84,8 +85,8 @@
         </div>
 
         <!-- RESUME -->
-        <div id="resume" style="margin-top: 100px">
-          <h1>Resume</h1>
+        <div style="margin-top: 100px">
+          <h1 id="resume">Resume</h1>
           <div class="card-body">
             <div id="accordion accordion-flush">
               <div class="card">
@@ -114,7 +115,6 @@
                 >
                   <div class="card-body">
                     <div id="accordion">
-                      <!--start of experience card 1-->
                       <div class="card">
                         <div class="card-header" id="experienceHeadingOne">
                           <h5 class="mb-0">
@@ -133,7 +133,8 @@
                                 width="30px"
                                 style="margin-left: 25px; margin-right: 25px"
                               />
-                              Collins Aerospace | Software Engineering Intern
+                              Collins Aerospace | Software Engineering Intern |
+                              March 2022 - September 2022
                             </button>
                           </h5>
                         </div>
@@ -144,11 +145,25 @@
                           aria-labelledby="experienceHeadingOne"
                           data-parent="#accordion"
                         >
-                          <div class="card-body">PUT STUFF HERE</div>
+                          <div class="card-body">
+                            <ul>
+                              <li>
+                                Automated software installations on windows
+                                machines using C# and Powershell
+                              </li>
+                              <li>
+                                Created a server health query service and
+                                webpage using AWS, html, css, and JavaScript
+                              </li>
+                              <li>
+                                Worked on overhead and combiner units for
+                                commercial customers
+                              </li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <!--end of experience card 1-->
-                      <!--start of experience card 2-->
+
                       <div class="card">
                         <div class="card-header" id="experienceHeadingTwo">
                           <h5 class="mb-0">
@@ -167,7 +182,7 @@
                                 width="80px"
                               />
                               Portland State University | Technical Course
-                              Support Specialist
+                              Support Specialist | September 2020 - Present
                             </button>
                           </h5>
                         </div>
@@ -178,10 +193,16 @@
                           aria-labelledby="experienceHeadingTwo"
                           data-parent="#accordion"
                         >
-                          <div class="card-body">PUT STUFF HERE</div>
+                          <div class="card-body">
+                            <ul>
+                              <li>
+                                Assist Students in learning fundementals of C++,
+                                Data Structures and Object Oriented Programming
+                              </li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <!--end of experience card 2-->
                     </div>
                   </div>
                 </div>
@@ -210,7 +231,6 @@
                 >
                   <div class="card-body">
                     <div id="accordion">
-                      <!--start of education card 1-->
                       <div class="card">
                         <div class="card-header" id="educationHeadingOne">
                           <h5 class="mb-0">
@@ -239,10 +259,14 @@
                           aria-labelledby="educationHeadingOne"
                           data-parent="#accordion"
                         >
-                          <div class="card-body">PUT STUFF HERE</div>
+                          <div class="card-body">
+                            <ul>
+                              <li>Expected Grad Date: Spring 2024</li>
+                              <li>GPA: 3.5</li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                      <!--end of education card 1-->
                     </div>
                   </div>
                 </div>
@@ -269,24 +293,33 @@
                   aria-labelledby="collapseThree"
                   data-parent="#accordion"
                 >
-                  <div class="card-body">PUT STUFF HERE</div>
+                  <div class="card-body">
+                    <ul>
+                      <li>C++</li>
+                      <li>Java</li>
+                      <li>C#</li>
+                      <li>Python</li>
+                      <li>JavaScript</li>
+                      <li>TypeScript</li>
+                      <li>Powershell</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
         <!-- Projects -->
-        <div class id="projects">
-          <h1>Projects</h1>
+        <div>
+          <h1 id="projects">Projects</h1>
           <div class="card-group" style="display: flex">
             <div class="card">
               <img
                 class="card-img-top"
-                src="../images/chocoresize.jpg"
+                src="../images/chocolate.jpeg"
                 alt="photo of chocolate"
-                width="170px"
-                heigh="96px"
+                width="400px"
+                height="400px"
               />
               <div class="card-body">
                 <h5 class="card-title">ChocAn</h5>
@@ -307,33 +340,25 @@
             </div>
 
             <div class="card">
-              <img class="card-img-top" src="../images/mario.jpg" alt="mario" />
+              <img
+                class="card-img-top"
+                src="../images/webdev.png"
+                alt="mario"
+                width="400px"
+                height="400px"
+              />
               <div class="card-body">
-                <h5 class="card-title">Project 1</h5>
+                <h5 class="card-title">This Website</h5>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  This is my final project for my Intro to Web Development class
+                  I took during the Fall Term of the 2022 School year. This
+                  website is intended to be a personal resume for potential
+                  employers to view.
                 </p>
                 <div class="buttons">
-                  <a href="#" class="btn btn-outline-secondary"
-                    ><i class="fa fa-github"></i> Repo</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <img class="card-img-top" src="../images/mario.jpg" alt="mario" />
-              <div class="card-body">
-                <h5 class="card-title">Project 1</h5>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="buttons">
-                  <a href="#" class="btn btn-outline-secondary"
+                  <a
+                    href="https://github.com/tmestas/webdev-final-project"
+                    class="btn btn-outline-secondary"
                     ><i class="fa fa-github"></i> Repo</a
                   >
                 </div>
@@ -343,9 +368,9 @@
         </div>
 
         <!-- Form -->
-        <div id="contactform">
+        <div>
           <form>
-            <h1>Contact Me!</h1>
+            <h1 id="contactform">Contact Me!</h1>
             <div class="row mb-3">
               <div class="col">
                 <label for="name" class="form-label">Name</label>
