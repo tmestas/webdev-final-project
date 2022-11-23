@@ -18,7 +18,7 @@
       crossorigin="anonymous"
     />
   </head>
-
+  <!--Ask Kevin how to change colors of bootstrap stuff, also check in on how to style resume better-->
   <body class="background">
     <main>
       <div class="container">
@@ -48,7 +48,8 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">About Me</h5>
+                  <h1 style="align-self: center">Tanner Mestas</h1>
+                  <h2 class="card-title">About Me</h2>
                   <p class="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -82,22 +83,24 @@
 
         <!-- RESUME -->
         <div class="card" id="resume" style="margin-top: 100px">
-          <h5 class="card-header">Resume</h5>
+          <h2 class="card-header">Resume</h2>
           <div class="card-body">
-            <div id="accordion">
+            <div id="accordion accordion-flush">
               <div class="card">
                 <div class="card-header" id="headingOne">
                   <h5 class="mb-0">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
-                      aria-expanded="false"
-                      aria-controls="panelsStayOpen-collapseOne"
-                    >
-                      Experience
-                    </button>
+                    <div class="accordion-item">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="false"
+                        aria-controls="headingOne"
+                      >
+                        Experience
+                      </button>
+                    </div>
                   </h5>
                 </div>
 
@@ -119,7 +122,7 @@
                               data-bs-toggle="collapse"
                               data-bs-target="#experienceCollapseOne"
                               aria-expanded="false"
-                              aria-controls="panelsStayOpen-collapseOne"
+                              aria-controls="experienceHeadingOne"
                             >
                               <img
                                 src="../images/collins_transparent.png"
@@ -153,7 +156,7 @@
                               data-bs-toggle="collapse"
                               data-bs-target="#experienceCollapseTwo"
                               aria-expanded="false"
-                              aria-controls="panelsStayOpen-collapseTwo"
+                              aria-controls="experienceHeadingTwo"
                             >
                               <img
                                 src="../images/psulogo.jpg"
@@ -190,7 +193,7 @@
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseTwo"
                       aria-expanded="false"
-                      aria-controls="panelsStayOpen-collapseTwo"
+                      aria-controls="headingTwo"
                     >
                       Education
                     </button>
@@ -200,7 +203,7 @@
                 <div
                   id="collapseTwo"
                   class="accordion-collapse collapse"
-                  aria-labelledby="headingOne"
+                  aria-labelledby="educationHeadingOne"
                   data-parent="#accordion"
                 >
                   <div class="card-body">
@@ -215,7 +218,7 @@
                               data-bs-toggle="collapse"
                               data-bs-target="#educationCollapseOne"
                               aria-expanded="false"
-                              aria-controls="panelsStayOpen-collapseOne"
+                              aria-controls="educationHeadingOne"
                             >
                               <img
                                 src="../images/psulogo.jpg"
@@ -231,7 +234,7 @@
                         <div
                           id="educationCollapseOne"
                           class="accordion-collapse collapse"
-                          aria-labelledby="experienceHeadingOne"
+                          aria-labelledby="educationHeadingOne"
                           data-parent="#accordion"
                         >
                           <div class="card-body">PUT STUFF HERE</div>
@@ -251,7 +254,7 @@
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseThree"
                       aria-expanded="false"
-                      aria-controls="panelsStayOpen-collapseThree"
+                      aria-controls="collapseThree"
                     >
                       Technical Skills
                     </button>
@@ -261,7 +264,7 @@
                 <div
                   id="collapseThree"
                   class="accordion-collapse collapse"
-                  aria-labelledby="headingThree"
+                  aria-labelledby="collapseThree"
                   data-parent="#accordion"
                 >
                   <div class="card-body">PUT STUFF HERE</div>
@@ -299,6 +302,7 @@
                 </div>
               </div>
             </div>
+
             <div class="card">
               <img class="card-img-top" src="../images/mario.jpg" alt="mario" />
               <div class="card-body">
@@ -315,6 +319,7 @@
                 </div>
               </div>
             </div>
+
             <div class="card">
               <img class="card-img-top" src="../images/mario.jpg" alt="mario" />
               <div class="card-body">
@@ -336,40 +341,24 @@
 
         <!-- Form -->
         <div id="contactform">
-          <form
-            class="bg-light border rounded mx-auto p-2"
-            style="max-width: 1000px; align-self: center; margin-bottom: 100px"
-          >
-            <h1>Contact Form</h1>
-            <div class="formg col-lg-12 col-md-12 col-sm-12">
-              <div class="form-group">
-                <label for="username">Username:</label>
-                <input type="text" class="form-control" id="username" />
+          <form class="" style="align-self: center; margin-bottom: 100px">
+            <h2>Contact Me!</h2>
+            <div class="row mb-3">
+              <div class="col">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" />
               </div>
-            </div>
-            <div class="formg col-lg-12 col-md-12 col-sm-12">
-              <div class="form-group">
-                <label for="email">Email:</label>
+              <div class="col">
+                <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" id="email" />
               </div>
             </div>
-            <div class="formg col-lg-12 col-md-12 col-sm-12">
-              <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" class="form-control" id="password" />
-              </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message"></textarea>
             </div>
-
-            <div class="formg col-lg-12 col-md-12 col-sm-12">
-              <date class="form-group">
-                <label id="datelabel" for="date">Date:</label>
-                <input id="date" class="form-control" type="date" />
-              </date>
-            </div>
-            <div class="button-align">
-              <input class="btn-primary" type="submit" value="Submit" />
-              <input class="btn-secondary" type="reset" value="Reset" />
-            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-secondary">Reset</button>
           </form>
         </div>
       </div>

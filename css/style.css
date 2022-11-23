@@ -6,10 +6,6 @@
   --glossy-grape: #a799b7ff;
 }
 
-body {
-  background-color: var(--eerie-black);
-}
-
 .container {
   margin: 5 5 5 5;
 }
@@ -35,7 +31,6 @@ body {
 
 form {
   margin-top: 100px;
-  width: 800px;
 }
 
 #projects {
@@ -43,5 +38,5 @@ form {
 }
 
 .background {
-  background-color: var(--eerie-black);
+  background-color: rgb(255, 255, 255);
 }
