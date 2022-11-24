@@ -12,7 +12,7 @@
 
 .nav-link {
   display: block;
-  color: white;
+  color: var(--glossy-grape);
   text-align: center;
   text-decoration: none;
   padding: 14px 16px;
