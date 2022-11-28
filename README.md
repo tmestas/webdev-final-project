@@ -4,9 +4,9 @@ Final project for intro to web dev
 
 This project is the final project for CS410 - Intro to Web Development Fall 2022.
 
-My website has been deployed at: _url_
+My website has been deployed at: https://tmestas.github.io/webdev-final-project/
 
-Link to Repo:
+Link to Repo: https://github.com/tmestas/webdev-final-project
 
 Sources Used:
 
