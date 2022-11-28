@@ -20,3 +20,5 @@ Bootstrap Accordion: https://getbootstrap.com/docs/5.0/components/accordion/
 Footer: https://www.youtube.com/watch?v=YOb67OKw62s&ab_channel=TheWebShala
 
 Font Awesome: https://fontawesome.com/docs
+
+Parallax Background: https://www.w3schools.com/howto/howto_css_parallax.asp
